@@ -3,7 +3,7 @@
 [![Author](https://img.shields.io/badge/Author-Ryan%20Agung-blue.svg)](https://github.com/ryanagungn)
 [![Python](https://img.shields.io/badge/Python-3.11%2B-blue.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Streak](https://img.shields.io/badge/Progress-Day%201%20of%2030-brightgreen.svg)]()
+[![Streak](https://img.shields.io/badge/Progress-Day%202%20of%2030-brightgreen.svg)]()
 
 Tantangan **1 Day 1 AI Project** untuk membangun portfolio AI Engineering yang komprehensif mulai dari dasar LLM, Structured Output, RAG (Retrieval-Augmented Generation), Multi-Agent Systems, hingga Fullstack AI Micro-SaaS.
 
@@ -14,7 +14,7 @@ Tantangan **1 Day 1 AI Project** untuk membangun portfolio AI Engineering yang k
 | Hari | Nama Proyek | Kategori / Konsep | Stack | Status |
 | :---: | :--- | :--- | :--- | :---: |
 | **01** | [Smart AI Text & Sentiment Analyzer](./Day-01-Smart-Text-Analyzer) | LLM, Structured Output, CLI & UI | Gemini API, Streamlit, Rich | ✅ Selesai |
-| **02** | AI Code Reviewer & Explainer | Prompt Engineering, Code Analysis | Python, AST, LLM | ⏳ Upcoming |
+| **02** | [AI Code Reviewer & Refactor Assistant](./Day-02-AI-Code-Reviewer) | Code Audit, Security, Refactoring | Gemini API, Streamlit, Rich | ✅ Selesai |
 | **03** | Natural Language to SQL Query Runner | Text2SQL, SQLite, DB Schema | SQLite, Pydantic | ⏳ Upcoming |
 | **04** | AI Flashcard & Quiz Generator | JSON Schema, Education Tech | Pydantic, Streamlit | ⏳ Upcoming |
 | **05** | Multimodal Vision: Receipt & Invoice Extractor | Vision LLMs, OCR Data Extraction | Gemini Vision, Pillow | ⏳ Upcoming |
