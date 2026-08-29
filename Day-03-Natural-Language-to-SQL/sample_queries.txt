@@ -1,0 +1,18 @@
+﻿# Contoh Pertanyaan Analitik Bahasa Indonesia & Inggris (Day 03)
+
+# 1. Agregasi Penjualan & Revenue
+- Siapa 5 pelanggan dengan total nilai belanja tertinggi?
+- Berapa total pendapatan penjualan untuk setiap kategori produk?
+- Berapa rata-rata nilai transaksi per metode pembayaran?
+- Tampilkan total omzet dari pesanan yang sudah completed.
+
+# 2. Analisis Produk & Inventaris
+- Apa 3 produk paling mahal di toko?
+- Tampilkan produk yang stoknya tersisa kurang dari 30 unit.
+- Produk apa yang paling banyak dibeli (berdasarkan total kuantitas)?
+- Tampilkan rata-rata rating produk untuk masing-masing kategori.
+
+# 3. Geografis & Pola Pelanggan
+- Berapa jumlah pelanggan yang berasal dari kota Jakarta dan Bandung?
+- Tampilkan daftar pelanggan yang bergabung pada bulan Maret 2024.
+- Tampilkan semua pesanan dengan status shipped beserta nama pelanggannya.
