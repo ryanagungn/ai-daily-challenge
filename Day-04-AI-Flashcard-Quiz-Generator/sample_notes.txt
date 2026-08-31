@@ -1,0 +1,12 @@
+﻿Arsitektur Transformer dan Mekanisme Perhatian (Attention Mechanism)
+
+Transformer adalah arsitektur deep learning yang diperkenalkan dalam paper 'Attention Is All You Need' (Vaswani et al., 2017). Berbeda dengan RNN atau LSTM yang memproses data sekuensial secara bertahap (step-by-step), Transformer memproses seluruh sekuens input secara paralel, sehingga sangat efisien dalam pelatihan data skala besar.
+
+Komponen Utama Transformer:
+1. Self-Attention Mechanism: Menghitung bobot keterkaitan antar setiap kata dalam kalimat tanpa memandang posisinya. Menggunakan rumus Query (Q), Key (K), dan Value (V) dengan matriks Softmax((QK^T)/sqrt(d_k))V.
+2. Multi-Head Attention: Menjalankan mekanisme self-attention secara paralel pada beberapa representasi sub-ruang yang berbeda.
+3. Positional Encoding: Memberikan informasi urutan posisi kata ke dalam embedding karena Transformer tidak memiliki loop berulang bawaan seperti RNN.
+4. Feed-Forward Neural Network & Layer Normalization: Lapisan fully connected dan normalisasi residual di setiap blok encoder/decoder.
+
+Aplikasi Transformer:
+Transformer menjadi fondasi dasar bagi model bahasa modern (LLM) seperti GPT-4, BERT, Gemini, LLaMA, serta model vision (Vision Transformer/ViT).
