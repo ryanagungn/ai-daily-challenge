@@ -3,7 +3,7 @@
 [![Author](https://img.shields.io/badge/Author-Ryan%20Agung-blue.svg)](https://github.com/ryanagungn)
 [![Python](https://img.shields.io/badge/Python-3.11%2B-blue.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Streak](https://img.shields.io/badge/Progress-Day%204%20of%2030-brightgreen.svg)]()
+[![Streak](https://img.shields.io/badge/Progress-Day%205%20of%2030-brightgreen.svg)]()
 
 Tantangan **1 Day 1 AI Project** untuk membangun portfolio AI Engineering yang komprehensif mulai dari dasar LLM, Structured Output, RAG (Retrieval-Augmented Generation), Multi-Agent Systems, hingga Fullstack AI Micro-SaaS.
 
@@ -17,7 +17,7 @@ Tantangan **1 Day 1 AI Project** untuk membangun portfolio AI Engineering yang k
 | **02** | [AI Code Reviewer & Refactor Assistant](./Day-02-AI-Code-Reviewer) | Code Audit, Security, Refactoring | Gemini API, Streamlit, Rich | ✅ Selesai |
 | **03** | [Natural Language to SQL Query Runner](./Day-03-Natural-Language-to-SQL) | Text2SQL, Guardrails, Data Viz | Gemini API, SQLite, Streamlit | ✅ Selesai |
 | **04** | [AI Flashcard & Quiz Generator](./Day-04-AI-Flashcard-Quiz-Generator) | Structured Output, EdTech, Anki | Gemini API, Streamlit, Rich | ✅ Selesai |
-| **05** | Multimodal Vision: Receipt & Invoice Extractor | Vision LLMs, OCR Data Extraction | Gemini Vision, Pillow | ⏳ Upcoming |
+| **05** | [Multimodal Vision: Receipt & Invoice Extractor](./Day-05-Multimodal-Vision-Receipt-Extractor) | Vision LLMs, OCR, Math Audit | Gemini Vision, Pillow, Streamlit | ✅ Selesai |
 | **06** | AI Audio Meeting Transcriber & Summarizer | Speech-to-Text, Audio Multimodal | Whisper / Gemini Audio | ⏳ Upcoming |
 | **07** | Interactive Prompt Playground | Prompt Eng, Parameter Tuning | Streamlit, Multi-LLM | ⏳ Upcoming |
 | **08** | Vector Embeddings & Semantic Search Engine | Embeddings, Cosine Similarity | ChromaDB / FAISS | ⏳ Upcoming |
