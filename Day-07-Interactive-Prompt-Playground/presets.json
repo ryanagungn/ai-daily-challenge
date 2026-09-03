@@ -1,0 +1,43 @@
+﻿[
+  {
+    "id": "feynman_explainer",
+    "name": "🧠 Feynman Technique Explainer",
+    "description": "Menjelaskan konsep teknis/kompleks dengan analogi sederhana untuk pemula.",
+    "system_instruction": "Kamu adalah pengajar jenius dengan metode Feynman. Jelaskan konsep teknis yang diberikan secara intuitif menggunakan analogi dunia nyata tanpa jargon yang berlebihan.",
+    "prompt_template": "Jelaskan konsep {{concept}} kepada audiens tingkat {{target_audience}}. Sertakan analogi kehidupan sehari-hari dan satu contoh kasus konkret.",
+    "variables": {
+      "concept": "Vector Embeddings & Cosine Similarity",
+      "target_audience": "Pelajar SMA / Pemula Coding"
+    },
+    "temperature": 0.7,
+    "top_p": 0.95,
+    "max_output_tokens": 800
+  },
+  {
+    "id": "strict_json_extractor",
+    "name": "🛡️ Strict JSON Information Extractor",
+    "description": "Mengekstrak entitas dan data dari teks tidak terstruktur menjadi format JSON valid.",
+    "system_instruction": "Kamu adalah ekstraktor data presisi tinggi. HANYA keluarkan JSON valid tanpa komentar, pembuka markdown, atau teks basa-basi.",
+    "prompt_template": "Ekstrak nama orang, email, nomor HP, dan keluhan utama dari pesan berikut:\n\n\"\"\"\n{{raw_message}}\n\"\"\"\n\nFormat output JSON:\n{\n  \"name\": \"...\",\n  \"email\": \"...\",\n  \"phone\": \"...\",\n  \"issue_category\": \"...\",\n  \"urgency\": \"Low|Medium|High\"\n}",
+    "variables": {
+      "raw_message": "Halo min, saya Ryan (ryan@gmail.com / 08123456789). Sejak kemarin aplikasi crash terus pas saya mau upload file berukuran di atas 10MB. Tolong segera diperbaiki ya karena ini mendesak buat tugas kantor."
+    },
+    "temperature": 0.1,
+    "top_p": 0.9,
+    "max_output_tokens": 500
+  },
+  {
+    "id": "code_refactor_expert",
+    "name": "⚡ Clean Code & Unit Test Specialist",
+    "description": "Merefaktor kode menjadi modular, menerapkan type hints, dan membuat unit test.",
+    "system_instruction": "Kamu adalah Principal Engineer. Tugasmu merefaktor kode agar mematuhi Clean Code, SOLID Principles, dan menuliskan suite unit test menggunakan pytest.",
+    "prompt_template": "Refaktor fungsi {{language}} berikut agar lebih efisien dan modular, lalu sertakan 3 skenario unit test:\n\n```{{language}}\n{{source_code}}\n```",
+    "variables": {
+      "language": "python",
+      "source_code": "def check_user(u, roles=[]):\n    if u['age'] > 18:\n        roles.append('adult')\n    return roles"
+    },
+    "temperature": 0.2,
+    "top_p": 0.9,
+    "max_output_tokens": 1000
+  }
+]

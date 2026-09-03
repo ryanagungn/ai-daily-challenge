@@ -3,7 +3,7 @@
 [![Author](https://img.shields.io/badge/Author-Ryan%20Agung-blue.svg)](https://github.com/ryanagungn)
 [![Python](https://img.shields.io/badge/Python-3.11%2B-blue.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Streak](https://img.shields.io/badge/Progress-Day%206%20of%2030-brightgreen.svg)]()
+[![Streak](https://img.shields.io/badge/Progress-Day%207%20of%2030-brightgreen.svg)]()
 
 Tantangan **1 Day 1 AI Project** untuk membangun portfolio AI Engineering yang komprehensif mulai dari dasar LLM, Structured Output, RAG (Retrieval-Augmented Generation), Multi-Agent Systems, hingga Fullstack AI Micro-SaaS.
 
@@ -19,7 +19,7 @@ Tantangan **1 Day 1 AI Project** untuk membangun portfolio AI Engineering yang k
 | **04** | [AI Flashcard & Quiz Generator](./Day-04-AI-Flashcard-Quiz-Generator) | Structured Output, EdTech, Anki | Gemini API, Streamlit, Rich | ✅ Selesai |
 | **05** | [Multimodal Vision: Receipt & Invoice Extractor](./Day-05-Multimodal-Vision-Receipt-Extractor) | Vision LLMs, OCR, Math Audit | Gemini Vision, Pillow, Streamlit | ✅ Selesai |
 | **06** | [AI Audio Meeting Transcriber & Summarizer](./Day-06-AI-Audio-Meeting-Transcriber) | Audio Multimodal, Minutes, Tasks | Gemini Audio, Streamlit, Rich | ✅ Selesai |
-| **07** | Interactive Prompt Playground | Prompt Eng, Parameter Tuning | Streamlit, Multi-LLM | ⏳ Upcoming |
+| **07** | [Interactive Prompt Playground](./Day-07-Interactive-Prompt-Playground) | Prompt Eng, A/B Testing, Tuning | Gemini API, Streamlit, Rich | ✅ Selesai |
 | **08** | Vector Embeddings & Semantic Search Engine | Embeddings, Cosine Similarity | ChromaDB / FAISS | ⏳ Upcoming |
 | **09** | Chat with Your PDF (Simple RAG) | RAG, Document QA, Chunking | LangChain, Streamlit | ⏳ Upcoming |
 | **10** | Technical Docs Q&A Search Engine | Codebase & Markdown Indexing | Vector DB, FastEmbed | ⏳ Upcoming |
