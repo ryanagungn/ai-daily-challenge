@@ -1,0 +1,62 @@
+﻿[
+  {
+    "id": "doc_01",
+    "title": "Retrieval-Augmented Generation (RAG) vs Fine-Tuning",
+    "category": "Artificial Intelligence",
+    "content": "RAG menggabungkan retrieval dokumen eksternal berbasis vector embeddings dengan LLM generatif tanpa perlu melatih ulang bobot model. RAG sangat cocok untuk data dinamis yang sering berubah, dokumentasi internal privat, dan mencegah halusinasi dengan menyediakan sumber rujukan (grounding). Sebaliknya, fine-tuning cocok untuk menyesuaikan gaya penulisan (tone), sintaks khusus, atau domain bahasa yang sangat spesifik."
+  },
+  {
+    "id": "doc_02",
+    "title": "Prinsip Zero Trust Architecture dalam Keamanan Cloud",
+    "category": "Cyber Security",
+    "content": "Zero Trust adalah paradigma keamanan informasi dengan prinsip 'never trust, always verify'. Setiap permintaan akses dari dalam maupun luar jaringan harus diotentikasi, diotorisasi, dan dienkripsi secara ketat. Komponen intinya meliputi Least Privilege Access, Multi-Factor Authentication (MFA), Microsegmentation jaringan, dan monitoring telemetri secara berkelanjutan."
+  },
+  {
+    "id": "doc_03",
+    "title": "Optimasi Kueri PostgreSQL dengan B-Tree dan GIN Indexing",
+    "category": "Database Engineering",
+    "content": "Untuk mempercepat pencarian data di PostgreSQL, pemilihan jenis index sangat krusial. B-Tree index ideal untuk perbandingan kesetaraan (=) dan range queries (<, >). Sedangkan Generalized Inverted Index (GIN) sangat cepat untuk pencarian teks penuh (Full-Text Search), array, dan dokumen semi-terstruktur JSONB."
+  },
+  {
+    "id": "doc_04",
+    "title": "Mencegah Overfitting pada Model Deep Learning",
+    "category": "Machine Learning",
+    "content": "Overfitting terjadi ketika model menghafal data latih dan gagal melakukan generalisasi pada data baru. Cara mengatasinya meliputi penambahan data (Data Augmentation), penerapan Dropout regularization, Early Stopping saat validasi loss stagnan, L1/L2 Weight Decay, dan penyederhanaan kompleksitas arsitektur model."
+  },
+  {
+    "id": "doc_05",
+    "title": "Docker Container Security & Best Practices",
+    "category": "Cloud & DevOps",
+    "content": "Praktik keamanan terbaik untuk container Docker: gunakan base image minimal (seperti Alpine atau Distroless), jangan jalankan container sebagai user root (gunakan USER non-root), lakukan multi-stage build untuk memperkecil ukuran image, jangan simpan rahasia API Key dalam Dockerfile, dan scan vulnerability secara rutin dengan Trivy."
+  },
+  {
+    "id": "doc_06",
+    "title": "Caching Strategy dengan Redis: Cache-Aside vs Write-Through",
+    "category": "Software Architecture",
+    "content": "Pola Cache-Aside (Lazy Loading) membaca cache terlebih dahulu; jika cache miss, aplikasi mengambil data dari database lalu menyimpannya ke Redis. Pola ini sangat fleksibel dan hemat memori. Sementara Write-Through menulis data ke cache dan database secara bersamaan, memastikan konsistensi data tinggi tetapi menambah latensi penulisan."
+  },
+  {
+    "id": "doc_07",
+    "title": "Pencegahan Kerentanan SQL Injection",
+    "category": "Cyber Security",
+    "content": "SQL Injection terjadi ketika input pengguna yang tidak divalidasi dieksekusi langsung sebagai kueri database. Solusi utama untuk mencegahnya adalah selalu menggunakan Parameterized Queries (Prepared Statements) atau ORM modern, menerapkan input sanitization, dan membatasi hak akses akun database."
+  },
+  {
+    "id": "doc_08",
+    "title": "Event-Driven Architecture dengan Apache Kafka",
+    "category": "Software Architecture",
+    "content": "Event-Driven Architecture (EDA) memungkinkan decoupling antar layanan microservices dengan mempublikasikan dan berlangganan aliran peristiwa (events). Apache Kafka menyediakan log peristiwa terdistribusi berkinerja tinggi, fault-tolerant, dan mendukung pemrosesan stream data secara real-time dengan skalabilitas masif."
+  },
+  {
+    "id": "doc_09",
+    "title": "SQLite WAL (Write-Ahead Logging) Mode",
+    "category": "Database Engineering",
+    "content": "Secara default, SQLite menggunakan rollback journal. Mengaktifkan mode WAL (PRAGMA journal_mode=WAL) secara signifikan meningkatkan kinerja konkurensi karena pembaca (readers) tidak memblokir penulis (writers), dan penulis tidak memblokir pembaca, memungkinkan throughput baca-tulis yang jauh lebih cepat."
+  },
+  {
+    "id": "doc_10",
+    "title": "Mekanisme Self-Attention dan Vector Embeddings",
+    "category": "Artificial Intelligence",
+    "content": "Vector Embeddings merepresentasikan kata atau dokumen sebagai vektor numerik dalam ruang berdimensi tinggi (misal: 768 dimensi). Konsep atau teks yang memiliki makna semantik serupa akan memiliki posisi yang berdekatan dalam ruang vektor, yang diukur menggunakan metrik Cosine Similarity atau Dot Product."
+  }
+]
