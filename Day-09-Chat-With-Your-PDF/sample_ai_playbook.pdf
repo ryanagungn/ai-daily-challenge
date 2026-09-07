@@ -1,0 +1,58 @@
+%PDF-1.4
+1 0 obj << /Type /Catalog /Pages 2 0 R >> endobj
+2 0 obj << /Type /Pages /Kids [3 0 R] /Count 1 >> endobj
+3 0 obj << /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 4 0 R >> >> /Contents 5 0 R >> endobj
+4 0 obj << /Type /Font /Subtype /Type1 /BaseFont /Helvetica >> endobj
+5 0 obj << /Length 2456 >> stream
+BT
+/F1 10 Tf
+14 TL
+50 740 Td
+(PEDOMAN ARSITEKTUR AI & RAG ENTERPRISE 2024) '
+(PT Inovasi Teknologi Cerdas Nusantara) '
+(BAB 1: VISI DAN STANDAR PENGEMBANGAN AI) '
+(Dokumen ini merupakan standar resmi implementasi kecerdasan buatan bagi seluruh tim engineering.) '
+(Tujuan utama adalah membangun sistem Retrieval-Augmented Generation \\(RAG\\) yang aman, deterministik, dan bebas halusinasi.) '
+(Seluruh model bahasa yang digunakan harus melewati evaluasi kepatuhan privasi data dan memiliki guardrail anti-prompt injection.) '
+(BAB 2: STANDAR RETRIEVAL & VECTOR DATABASE) '
+(1. Rekomendasi Vector Database:) '
+(- Untuk lingkungan local development dan testing: gunakan ChromaDB atau SQLite Vector.) '
+(- Untuk lingkungan staging dan production: gunakan Qdrant atau Pinecone Serverless dengan replikasi multi-region.) '
+(2. Kebijakan Chunking Teks:) '
+(- Ukuran chunk standar \\(chunk size\\): 500 sampai 800 karakter.) '
+(- Overlap antar chunk: 100 karakter untuk menjaga kesinambungan semantik kalimat.) '
+(3. Model Embedding:) '
+(- Standar embedding yang disetujui adalah text-embedding-004 \\(768 dimensi\\) dengan metrik jarak Cosine Similarity.) '
+(- Ambang batas minimum similarity \\(threshold\\) untuk context grounding adalah 0.45.) '
+(BAB 3: KEAMANAN DATA & PERLINDUNGAN PRIVASI \\(PII\\)) '
+(1. Dilarang keras mengirimkan data mentah nasabah \\(PII seperti NIK KTP, nomor kartu kredit, kata sandi, dan rekam medis\\) ke API LLM publik.) '
+(2. Masking Data Otomatis:) '
+(- Seluruh data teks harus melewati pipeline Anonymizer sebelum proses chunking dan indexing vektor.) '
+(- Log query pengguna disimpan maksimal selama 30 hari dalam format terenkripsi AES-256.) '
+(BAB 4: SLA PERFORMA & ANGGARAN BIAYA TOKEN) '
+(1. Service Level Agreement \\(SLA\\):) '
+(- Latency maksimum end-to-end untuk respon RAG adalah 1.5 detik \\(1500 ms\\).) '
+(- Waktu proses retrieval vektor harus di bawah 150 ms \\(P95\\).) '
+(2. Kuota dan Anggaran Biaya:) '
+(- Anggaran maksimum per project cluster adalah $500 USD per bulan.) '
+(- Wajib menerapkan semantic caching menggunakan Redis untuk kueri berulang guna memangkas biaya token hingga 40%.) '
+(BAB 5: TIM PENANGGUNG JAWAB & KONTAK ON-CALL) '
+(- Head of AI Engineering: Dr. Budi Santoso \\(budi.santoso@inovasitech.id\\)) '
+(- Lead Platform & Security: Siti Rahmawati \\(siti.rahma@inovasitech.id\\)) '
+(- On-call Emergency Slack Channel: #ai-incident-response \\(SLA respon 15 menit untuk insiden P1\\).) '
+ET
+
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000241 00000 n 
+0000000311 00000 n 
+trailer << /Size 6 /Root 1 0 R >>
+startxref
+2819
+%%EOF
