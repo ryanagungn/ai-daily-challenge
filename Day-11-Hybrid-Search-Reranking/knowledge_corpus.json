@@ -1,0 +1,62 @@
+﻿[
+  {
+    "id": "kb_01",
+    "title": "Mengatasi Error ERR_REDIS_CONN_TIMEOUT pada Production",
+    "category": "DevOps & Caching",
+    "content": "Pesan error 'ERR_REDIS_CONN_TIMEOUT' muncul saat pool koneksi Redis habis atau latency jaringan melebihi timeout default 2000ms. Solusinya: tingkatkan max_connections di redis.conf, implementasikan connection pool reuse di client code (jangan buat koneksi baru per request), dan pastikan socket keepalive aktif."
+  },
+  {
+    "id": "kb_02",
+    "title": "Penanganan HTTP 429 Too Many Requests dan Rate Limiting",
+    "category": "API Gateway",
+    "content": "Status code HTTP 429 menandakan klien telah melebihi kuota permintaan yang diizinkan. Best practice penanganannya di sisi klien adalah membaca header 'Retry-After' dan menerapkan Exponential Backoff dengan Jitter acak agar server tidak kebanjiran request ulang secara bersamaan."
+  },
+  {
+    "id": "kb_03",
+    "title": "Mencegah Pencurian Token Sesi via Cross-Site Scripting (XSS)",
+    "category": "Web Security",
+    "content": "Untuk melindungi token otentikasi dari pencurian melalui serangan XSS, jangan pernah menyimpan JWT di LocalStorage atau SessionStorage. Simpan token di dalam HTTP-Only Cookie dengan flag Secure dan SameSite=Strict agar skrip JavaScript berbahaya tidak dapat membaca nilai cookie tersebut."
+  },
+  {
+    "id": "kb_04",
+    "title": "Optimasi Kinerja Database dengan Partitioning dan Sharding",
+    "category": "Database Engineering",
+    "content": "Ketika tabel database mencapai ratusan juta baris dan memperlambat kueri agregasi, terapkan Table Partitioning (misal range partitioning berdasarkan tanggal) pada PostgreSQL. Untuk skala horizontal multi-server, terapkan database sharding dengan konsisten hashing pada partition key."
+  },
+  {
+    "id": "kb_05",
+    "title": "Implementasi OAuth2 Authorization Code dengan PKCE",
+    "category": "Authentication",
+    "content": "Proof Key for Code Exchange (PKCE) adalah ekstensi keamanan wajib untuk protokol OAuth 2.0 pada Single Page Application (SPA) dan mobile app guna mencegah serangan authorization code interception tanpa memerlukan client secret."
+  },
+  {
+    "id": "kb_06",
+    "title": "Mitigasi Kerentanan CVE-2024-38856 pada Apache OFBiz",
+    "category": "Security Vulnerability",
+    "content": "CVE-2024-38856 adalah celah Remote Code Execution (RCE) kritis pada framework Apache OFBiz akibat bypass autentikasi pada endpoint eksternal. Perbaikan resmi: upgrade instance ke versi 18.12.15 atau terapkan blokir request WAF pada path /webtools/control/ProgramExport."
+  },
+  {
+    "id": "kb_07",
+    "title": "Strategi Zero Downtime Deployment dengan Blue-Green dan Canary",
+    "category": "DevOps & Cloud",
+    "content": "Blue-Green Deployment memelihara dua lingkungan produksi identik dan mengalihkan traffic secara instan via router/load balancer. Canary Deployment mengalirkan 5-10% traffic pengguna ke versi baru terlebih dahulu untuk memantau error rate sebelum deployment 100%."
+  },
+  {
+    "id": "kb_08",
+    "title": "Kompilasi Model PyTorch Menggunakan TorchDynamo dan Inductor",
+    "category": "Machine Learning",
+    "content": "PyTorch 2.0 memperkenalkan torch.compile() dengan backend TorchInductor yang menghasilkan kernel kode C++/Triton yang dioptimalkan, memangkas overhead interpretasi Python dan mempercepat throughput training/inference GPU hingga 30-50%."
+  },
+  {
+    "id": "kb_09",
+    "title": "Panduan Mengatur Connection Pool Database PgBouncer",
+    "category": "Database Engineering",
+    "content": "PgBouncer memangkas beban memori PostgreSQL dengan mode transaction pooling. Pastikan parameter reserve_pool_size dan max_client_conn disesuaikan dengan kapasitas RAM server PostgreSQL agar tidak memicu error FATAL: remaining connection slots are reserved."
+  },
+  {
+    "id": "kb_10",
+    "title": "Proteksi Webhook dengan HMAC SHA-256 Signature Verification",
+    "category": "API Integration",
+    "content": "Untuk memastikan payload webhook benar-benar berasal dari payment gateway dan belum dimanipulasi di perjalanan (Man-in-the-Middle), selalu validasi header X-Signature menggunakan algoritma HMAC-SHA256 dengan shared secret rahasia."
+  }
+]

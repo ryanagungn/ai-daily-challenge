@@ -3,7 +3,7 @@
 [![Author](https://img.shields.io/badge/Author-Ryan%20Agung-blue.svg)](https://github.com/ryanagungn)
 [![Python](https://img.shields.io/badge/Python-3.11%2B-blue.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Streak](https://img.shields.io/badge/Progress-Day%2010%20of%2030-brightgreen.svg)]()
+[![Streak](https://img.shields.io/badge/Progress-Day%2011%20of%2030-brightgreen.svg)]()
 
 Tantangan **1 Day 1 AI Project** untuk membangun portfolio AI Engineering yang komprehensif mulai dari dasar LLM, Structured Output, RAG (Retrieval-Augmented Generation), Multi-Agent Systems, hingga Fullstack AI Micro-SaaS.
 
@@ -23,7 +23,7 @@ Tantangan **1 Day 1 AI Project** untuk membangun portfolio AI Engineering yang k
 | **08** | [Vector Embeddings & Semantic Search Engine](./Day-08-Semantic-Search-Engine) | Embeddings, Cosine Similarity, 2D PCA | Gemini Embeddings, NumPy, Streamlit | ✅ Selesai |
 | **09** | [Chat with Your PDF (Simple RAG)](./Day-09-Chat-With-Your-PDF) | RAG, Chunking, Grounding, Citations | Gemini API, pypdf, Streamlit | ✅ Selesai |
 | **10** | [Technical Docs Q&A Search Engine](./Day-10-Technical-Docs-QA-Search) | Codebase & Markdown Indexing, Semantic Chunking | Gemini Embeddings, Streamlit, Rich | ✅ Selesai |
-| **11** | Hybrid Search (Keyword BM25 + Dense Vector) | Re-ranking & Retrieval Tuning | Rank-BM25, ChromaDB | ⏳ Upcoming |
+| **11** | [Hybrid Search (Keyword BM25 + Dense Vector)](./Day-11-Hybrid-Search-Reranking) | BM25, RRF Fusion, Cross-Encoder Re-ranking | Gemini API, BM25, Streamlit | ✅ Selesai |
 | **12** | Live Web-Search Augmented AI (Mini Perplexity) | Search API, Source Synthesis | DuckDuckGo API, LLM | ⏳ Upcoming |
 | **13** | Local LLM Offline Runner | Local AI, Privacy-first Inference | Ollama / Llama.cpp | ⏳ Upcoming |
 | **14** | RAG Evaluation & Hallucination Guardrail | LLM-as-a-judge, Metrics | Ragas / Custom Eval | ⏳ Upcoming |
