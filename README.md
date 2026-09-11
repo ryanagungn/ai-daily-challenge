@@ -1,9 +1,9 @@
-﻿# 🤖 30 Days of AI Projects Challenge
+# 🤖 30 Days of AI Projects Challenge
 
 [![Author](https://img.shields.io/badge/Author-Ryan%20Agung-blue.svg)](https://github.com/ryanagungn)
 [![Python](https://img.shields.io/badge/Python-3.11%2B-blue.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Streak](https://img.shields.io/badge/Progress-Day%2012%20of%2030-brightgreen.svg)]()
+[![Streak](https://img.shields.io/badge/Progress-Day%2013%20of%2030-brightgreen.svg)]()
 
 Tantangan **1 Day 1 AI Project** untuk membangun portfolio AI Engineering yang komprehensif mulai dari dasar LLM, Structured Output, RAG (Retrieval-Augmented Generation), Multi-Agent Systems, hingga Fullstack AI Micro-SaaS.
 
@@ -12,7 +12,7 @@ Tantangan **1 Day 1 AI Project** untuk membangun portfolio AI Engineering yang k
 ## 📊 Progress Tracker
 
 | Hari | Nama Proyek | Kategori / Konsep | Stack | Status |
-| :---: | :--- | :--- | :--- | :---: |
+| :---: | :--- | :--- | :--- | :--- |
 | **01** | [Smart AI Text & Sentiment Analyzer](./Day-01-Smart-Text-Analyzer) | LLM, Structured Output, CLI & UI | Gemini API, Streamlit, Rich | ✅ Selesai |
 | **02** | [AI Code Reviewer & Refactor Assistant](./Day-02-AI-Code-Reviewer) | Code Audit, Security, Refactoring | Gemini API, Streamlit, Rich | ✅ Selesai |
 | **03** | [Natural Language to SQL Query Runner](./Day-03-Natural-Language-to-SQL) | Text2SQL, Guardrails, Data Viz | Gemini API, SQLite, Streamlit | ✅ Selesai |
@@ -25,7 +25,7 @@ Tantangan **1 Day 1 AI Project** untuk membangun portfolio AI Engineering yang k
 | **10** | [Technical Docs Q&A Search Engine](./Day-10-Technical-Docs-QA-Search) | Codebase & Markdown Indexing, Semantic Chunking | Gemini Embeddings, Streamlit, Rich | ✅ Selesai |
 | **11** | [Hybrid Search (Keyword BM25 + Dense Vector)](./Day-11-Hybrid-Search-Reranking) | BM25, RRF Fusion, Cross-Encoder Re-ranking | Gemini API, BM25, Streamlit | ✅ Selesai |
 | **12** | [Live Web-Search Augmented AI (Mini Perplexity)](./Day-12-Web-Search-Augmented-AI) | Search-Augmented Generation, Footnote Citations | Gemini API, DuckDuckGo, Streamlit | ✅ Selesai |
-| **13** | Local LLM Offline Runner | Local AI, Privacy-first Inference | Ollama / Llama.cpp | ⏳ Upcoming |
+| **13** | [Local LLM Offline Runner (Ollama & Local AI)](./Day-13-Local-LLM-Offline-Runner) | Local AI, Privacy-First, Real-Time Token/s | Ollama, Rich CLI, Streamlit | ✅ Selesai |
 | **14** | RAG Evaluation & Hallucination Guardrail | LLM-as-a-judge, Metrics | Ragas / Custom Eval | ⏳ Upcoming |
 | **15** | LLM Tool Calling & Function Execution | Function Calling, API Integrations | Gemini Tools, Python | ⏳ Upcoming |
 | **16** | Autonomous Research Agent | Agentic Loop, Auto-Search | Agent Loop, BS4 | ⏳ Upcoming |
